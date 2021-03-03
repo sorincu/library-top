@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Library</title>
+</head>
+<body>
+    <header>
+        <h1 id="title">LIBRARY</h1>
+        <button id="new-book">Add a new book</button>
+    </header>
+
+    <form id="form-element">
+        <label for="title-input">Title:</label><br>
+        <input type="text" id="title-input" name="title-input"><br>
+
+        <label for="author">Author:</label><br>
+        <input type="text" id="author" name="author"><br>
+
+        <label for="year">Year:</label><br>
+        <input type="text" id="year" name="year"><br>
+
+        <div>
+            <a id="cancel" href="index.html">Cancel</a>
+            <button id="submit" type="submit" value="Submit">Submit</button>
+        </div>
+    </form>
+
+    <div id="examples">
+        <div class="example not-read" id="example-not-read">Not Read</div>
+        <div class="example is-read" id="example-is-read">Read</div>
+    </div>
+
+    <section>
+        <!-- The bookshelf -->
+    </section>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

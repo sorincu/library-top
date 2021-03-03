@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: #ffebcd;
+    box-shadow: 0px 15px 30px rgb(0 0 0 / 15%);
+    background: linear-gradient(180deg, rgb(254, 255, 172) 15%, rgba(255,235,205,1) 89%);
+}
+
+#title {
+    font-size: 55px;
+    margin: 0;
+    padding: 30px 0px;
+}
+
+section {
+    font-weight: bold;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+}
+
+.book {
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 15px 30px rgb(0 0 0 / 15%);
+}
+
+.not-read {
+    background: linear-gradient(60deg, rgb(254, 255, 172) 15%, rgba(255,235,205,1) 89%);
+}
+
+.is-read {
+    background: linear-gradient(60deg, rgb(100, 120, 130) 15%, rgba(130, 140, 150,1) 89%);
+}
+
+.remove, #cancel {
+    background-color: rgb(255, 94, 94);
+}
+
+#submit {
+    background-color: rgb(145, 255, 94);
+}
+
+#form-element {
+    display: none;
+    font-weight: bold;
+    background-color: rgba(220, 220, 220, 50%);
+    border-radius: 12px;
+    width: 20%;
+    padding: 30px 0;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    backdrop-filter: blur(4px);
+}
+
+button, input, a, .example {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 10px 20px;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0px 15px 30px rgb(0 0 0 / 15%);
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.example {
+    margin: 0;
+}
+
+#examples {
+    width: 200px;
+    display: flex; 
+    justify-content: space-between;
+    margin: 40px auto 0 auto;
+}
